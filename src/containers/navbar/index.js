@@ -11,7 +11,7 @@ const Navbar = () => {
     return (
         <div className="navbar">
             <p>quickposts</p>
-            {user ? <img className='navbar-image' src={user.photoURL} /> : <SignInBtn />}
+            {user ? <img className='navbar-image' alt="profile-pic" src={user.photoURL} /> : <SignInBtn />}
         </div>
     )
 }
